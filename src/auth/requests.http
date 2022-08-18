@@ -5,3 +5,19 @@ Content-Type: application/json
   "email": "dzung_min@yahoo.com",
   "password": "protrader84"
 }
+
+###
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "name": "Wako Murohara",
+  "email": "murohara@katahira.com",
+  "password": "murohara"
+}
+
+###
+GET http://localhost:3000/auth/me
+
+###
+POST http://localhost:3000/auth/logout
